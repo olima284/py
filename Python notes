@@ -1,0 +1,133 @@
+
+Codecademy - Python Syntax
+
+Exp:
+#You realize that the numbers don’t divide evenly and you don’t want to throw out the remaining cucumbers.
+Create a variable called float_cucumbers_per_person that holds the float result of dividing cucumbers by num_people.
+Print float_cucumbers_per_person to the console.
+>>>
+cucumbers = 100
+num_people = 6
+whole_cucumbers_per_person = 100/6
+print(whole_cucumbers_per_person)
+
+float_cucumbers_per_person =float(100)/6
+print(float_cucumbers_per_person)
+
+Exp:
+arithmetic operations, each assigned to a variable
+mirthful_addition = 12381 + 91817
+amazing_subtraction = 981 - 312
+trippy_multiplication = 38 * 902
+happy_division = 540 / 45
+sassy_combinations = 129 * 1345 + 120 / 6 - 12
+
+( Integer ) Is a Whole Number
+>>> int1 = 1
+
+Number With a Decimal point is called a( Float )
+>>> float1 = 1.0
+@uotient1 = float(7)/2
+# the value of quotient1 is 3.5quotient1 = 7./2
+# the value of quotient1 is 3.5
+
+
+
+
+You can also define a float using scientific notation, with e indicating the power of 10:
+>>>>>>>>># this evaluates to 150:
+float4 = 1.5e2
+
+
+
+
+MULTIPLE LINE STINGS:
+
+# If we want a string to span multiple lines,
+ we can also use triple quotes:
+address_string = """136 Whowho Rd
+Apt 7
+Whosville, WZ 44494"""
+
+BOOLEANS:
+A boolean is actually a special case of an integer.
+A value of True corresponds to an integer value of 1, and will behave the same.
+A value of False corresponds to an integer value of 0
+
+CONVERT Variables To Different Datatypes
+
+Use an integer as part of a string
+Use: "str():"
+EXP:
+age = 13
+print "I am " + str(age) + " years old!"
+
+>>>PRINT->>> "I am 13 years old!"
+
+Perform arithmetic operations ON A STRING VALUE
+USE: "int():"
+number1 = "100"
+number2 = "10"
+
+string_addition = number1 + number2
+#string_addition now has a value of
+>>>PRINT>>>10010
+
+
+int_addition = int(number1) + int(number2)
+#int_addition has a value of
+>>>PRINT>>>110
+
+
+
+EXP
+float_1 = 0.25
+float_2 = 40.0
+
+product = float(float_1) * float(float_2)
+
+big_string = "The product was " + str(int (product))
+print(big_string)
+prints >>>>The product was 10
+
+Create a variable called product that contains the result of multiplying the float value of float_1 and float_2.
+
+Checkpoint 2 Passed
+2.
+Create a string called big_string that says:
+
+The product was X
+
+
+
+
+
+mosh
+#storing simple values
+#price = 10
+#price = 20
+#print 20
+#rating = 4.9
+#4.9 is a float number
+#name = 'Olivia'
+#define and set a variable
+#print(price)
+#get the value of the variable
+#is_published = False
+#Pytho is a case-sensitive language : meaning to lower and uppercase lettters
+#complex value
+#full_name = 'John Smith'
+#age = 20
+#is_new = True
+
+#BASICS PYTHON
+#print("Olivia Lima")
+#print("0----")
+#print(' ||||')
+#print("*" * 10)
+#prints :********** (the star operator multiply the sting "*" )
+
+
+#python code runs top to bottom(line 1,2,3)
+#("") defining string
+#
